@@ -655,6 +655,24 @@ input[type="submit"] {
   height: 40px;
 }
 
+@media (max-width: 960px){
+  input[type="text"]{
+    width: 200px;
+  }
+  input[type="submit"]{
+    width: 240px;
+  }
+}
+
+@media (max-width: 830px){
+  input[type="text"]{
+    width: 200px;
+  }
+  input[type="submit"]{
+    width: 240px;
+  }
+}
+
 .email-us__agreement {
   opacity: 0.5;
 }
